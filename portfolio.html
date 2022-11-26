@@ -282,7 +282,7 @@
         </div>
       </section>
     </main>
-        <footer class="footer">
+       <footer class="footer">
       <div class="container footer-conteiner">
         <div>
           <a class="logo second" href="./"
@@ -337,21 +337,22 @@
         </div>
         <div class="footer-mail">
           <form>
+            <p class="email-title">Підпишіться на розсилку</p>
             <div class="footer-form">
-              <label for="user_email">Підпишіться на розсилку</label>
               <input
                 type="email"
                 name="email"
                 id="user_email"
                 placeholder="E-mail"
+                aria-label="Email"
               />
+              <button class="footer-button" type="submit">
+                Підписатися<svg class="send" width="24" height="24">
+                  <use href="./images/icons.svg#icon-icon-send"></use>
+                </svg>
+              </button>
             </div>
           </form>
-          <button class="footer-button" type="submit">
-            Підписатися<svg class="send" width="24" height="24">
-              <use href="./images/icons.svg#icon-icon-send"></use>
-            </svg>
-          </button>
         </div>
       </div>
     </footer>
